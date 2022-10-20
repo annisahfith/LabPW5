@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(136, 193, 243);
+    padding: 30px;
+    font-family: arial;
+}
+
+.header {
+    padding:25px;
+    text-align: center;
+    background-color: rgb(238, 241, 217);
+
+}
+
+.header h1{
+    font-size: 35px;
+}
+
+.navigasi {
+    background-color: rgb(244, 214, 176);
+    overflow:hidden ;
+}
+
+.navigasi a {
+    color: black;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    display: block;
+}
+
+.navigasi a:hover {
+    background-color: rgb(14, 106, 140);
+    color: rgb(224, 201, 201);
+}
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: rgb(224, 219, 219);
+    padding-left: 25px;
+}
+
+.card {
+    background: rgb(180, 210, 240);
+    padding: 15px;
+    margin margin-top: 25px;
+}
+
+.rowcontent:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding:20px;
+    text-align: center;
+    background-color: antiquewhite;
+    margin-top: 20px;
+}

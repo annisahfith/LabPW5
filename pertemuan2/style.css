@@ -1,0 +1,29 @@
+h3
+{
+    background-color: aqua;
+    color: black;
+    font-size: 40px;
+}
+
+h1 
+{
+    background-color: black;
+}
+
+.judul 
+{
+    background-color: rgb(147, 60, 60);
+}
+
+.lorem
+{
+    border: 2px solid black;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 25px;
+
+    padding: 20px;
+    
+
+}
